@@ -271,12 +271,12 @@ yellow {
   padding:0;
 }
 #timer{
-  background-image: url(images/banner2.jpg);
+  background-image: url(images/banner2.png);
   
   
 }
 .bg-text {
-  color:#0c1a36;
+  color:white;
   padding-top: 5px;
   font-size: 1.5vw;
   font-weight: 800;
@@ -288,8 +288,8 @@ yellow {
   padding-left: 0;
   display: flex;
   justify-content: center;
-  font-size: 3.7vw;
-  font-weight: 800;
+  font-size: 3.2vw;
+  font-weight: 700;
 }
 .event-head {
   color: black;
