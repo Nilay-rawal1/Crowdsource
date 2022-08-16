@@ -104,6 +104,9 @@ nav,
 section {
   display: block;
 }
+html {
+  scroll-behavior: smooth;
+} 
 
 body {
   line-height: 1;
@@ -219,7 +222,7 @@ yellow {
 .head1 {
   margin-top: 0;
   padding-bottom: 0.4em;
-  font-size: 8em;
+  font-size: 11vw;
   font-weight: 1000;
 }
 .btngif{
@@ -229,22 +232,32 @@ yellow {
   margin-bottom: 0;
 }
 .gifevent{
-  width: 4rem;
+  width: 12vw;
   
 
 }
-
+.Speaker-abt{
+  font-size: 8vw;
+}
+.connect{
+  color:#002b3c;
+  padding:0;
+  padding: 0;
+}
+.twitter-color{
+  color: #1DA1F2;
+}
 
 .save {
   margin-top: 0;
   display: flex;
   justify-content:center;
   padding-bottom: 0.5rem;
-  font-size: .7rem;
+  font-size: .7vw;
   align-items: center;
 }
 .timer {
-  font-size: 4rem;
+  font-size: 4vw;
   margin-bottom: 3em;
   padding-bottom: 0.5em;
   color:cadetblue;
@@ -258,16 +271,15 @@ yellow {
   padding:0;
 }
 #timer{
-  background-image: url(/images/banner.svg);
+  background-image: url(/images/banner2.jpg);
   
   
 }
-.bg-text{
- color: honeydew;
- padding-top: 5px;
- font-size: 1.5rem;
- font-weight: 800;
-
+.bg-text {
+  color: honeydew;
+  padding-top: 5px;
+  font-size: 1.5vw;
+  font-weight: 800;
 }
 .event-page {
   margin-left: 0;
@@ -276,59 +288,33 @@ yellow {
   padding-left: 0;
   display: flex;
   justify-content: center;
-  font-size: 3.47rem;
+  font-size: 3.7vw;
   font-weight: 800;
 }
-.event-head{
-  color:black;
+.event-head {
+  color: black;
   font-weight: 900;
+  padding-top: 5vh;
 }
-.ptag{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+.ptag {
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 800;
   color: rgb(29, 26, 26);
 }
-.content {
-  height: 100%;
-  display: flex;
-  margin-top: 32px;
-  padding: 9px;
-  position: relative;
+.event-img {
+  max-width: 35vw;
+  padding: 1rem;
+  border: 0.5vw black solid;
+  border-radius: 20px;
 }
-.content::after {
-  content: "";
-  background-image: url("/images/crowdsource.svg");
-  width: 100%;
-  height: inherit;
-  position: absolute;
-  opacity: 0.2;
-}
-.contentleft {
-  font-family: var(--font1);
-  padding: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  z-index: 1;
+.event-content {
+  font-size: 1.6vw;
+  font-family: "open sans";
+  font-style: italic;
+  font-weight: 900;
+  color: rgb(0, 7, 27);
 }
 
-.contentright {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.contentright img {
-  
-  border: 4px solid black;
-  border-radius: 25px;
-  opacity: 1;
-  z-index: 10;
-  padding: 20px;
-  width: 440px;
-  height: 250px;
-}
 .about-speaker{
   
   padding: 50px;
@@ -2385,18 +2371,22 @@ ul.actions li:first-child {
 	}
 	
 	.navbar {
-	  width: 100%;
-	  background-color: #f9f9f9;
-	  border: thin solid #ededed;
-	  height: 44px;
+	  width: 95%;
+	  background-color: #fff;
+	  height: 54px;
+    z-index:1;
+    padding-bottom:10px;
+    top:0;
+    left: 0;
+    position: fixed;
 	}
 	.navbar .logo {
-	  padding: 11px;
-	  font-size: 0.9375em;
+	  font-size: 3em;
+	  
 	  font-weight: 800;
 	  float: left;
 	}
-  }
+}
   #hamburger {
 	width: 30px;
 	position: relative;
@@ -2482,12 +2472,13 @@ ul.actions li:first-child {
 	color: #000;
   }
   .sitenavigation li a {
-	color: #758283;
-	text-decoration: none;
-	display: block;
-	padding: 11px 14px;
-	font-size: 0.9375em;
-	-webkit-tap-highlight-color: transparent;
+    color: #758283;
+    text-decoration: none;
+    display: block;
+    padding: 11px 14px;
+    font-size: 1.5vw;
+    font-weight: 900;
+    -webkit-tap-highlight-color: transparent;
   }
   .sitenavigation li a.nav-path-selected, .sitenavigation li a.linkclicked {
 	color: white;
