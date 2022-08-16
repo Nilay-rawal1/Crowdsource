@@ -270,10 +270,8 @@ yellow {
   margin: 0;
   padding:0;
 }
-#timer{
-  background-image: url(images/banner2.png);
-  
-  
+.timebg{
+ background-image: url(/images/banner2.png);
 }
 .bg-text {
   color:white;
