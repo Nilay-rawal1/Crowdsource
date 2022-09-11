@@ -236,6 +236,7 @@ yellow {
   
 
 }
+
 .Speaker-abt{
   font-size: 8vw;
 }
@@ -243,9 +244,13 @@ yellow {
   color:#002b3c;
   padding:0;
   padding: 0;
+
 }
 .twitter-color{
   color: #1DA1F2;
+}
+.google-color{
+  color: #DB4437;
 }
 
 .save {
@@ -256,28 +261,47 @@ yellow {
   font-size: .7vw;
   align-items: center;
 }
+
 .timer {
-  font-size: 4vw;
+  font-size: 5.6vw;
   margin-bottom: 3em;
   padding-bottom: 0.5em;
-  color:cadetblue;
+  color:transparent;
   font-weight: 900;
   height: 15vh;
   padding-top: 6vh;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  -webkit-text-stroke: 1.5px rgb(4, 4, 29);
+  background-image: url(/images/banner.jpg);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 5s linear infinite;
 }
 .timer1{
   margin: 0;
   padding:0;
 }
-.timebg{
- background-image: url(/images/banner2.png);
-}
+
 .bg-text {
-  color:white;
+  color:transparent;
   padding-top: 5px;
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-weight: 800;
+  -webkit-text-stroke: 1px rgb(4, 4, 29);
+  background-image: url(/images/banner.jpg);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 5s linear infinite;
+}
+@keyframes back {
+  100%{
+    background-position: 800px 0;
+  }
+  
+}
+.video-bg{
+  border: 10px solid floralwhite;
+  border-radius:20px;
 }
 .event-page {
   margin-left: 0;
@@ -290,18 +314,25 @@ yellow {
   font-weight: 700;
 }
 .event-head {
-  color: black;
+  color:transparent;
   font-weight: 900;
   padding-top: 5vh;
+  -webkit-text-stroke: 1.5px rgb(4, 4, 29);
+  background-image: url(/images/banner.jpg);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 10s linear infinite;
 }
+
 .ptag {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 800;
   color: rgb(29, 26, 26);
 }
 .event-img {
-  max-width: 35vw;
-  padding: 1rem;
+  width: 40vw;
+  height: 50vh;
+  padding: 0.1rem;
   border: 0.5vw black solid;
   border-radius: 20px;
 }
