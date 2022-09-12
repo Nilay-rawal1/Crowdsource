@@ -272,7 +272,7 @@ yellow {
   padding-top: 6vh;
   font-family: Georgia, 'Times New Roman', Times, serif;
   -webkit-text-stroke: 1.5px rgb(4, 4, 29);
-  background-image: url(images/banner.jpg);
+  background-image: url('/images/banner.jpg');
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 5s linear infinite;
@@ -288,7 +288,7 @@ yellow {
   font-size: 2vw;
   font-weight: 800;
   -webkit-text-stroke: 1px rgb(4, 4, 29);
-  background-image: url(images/banner.png);
+  background-image: url('/images/banner.png');
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 5s linear infinite;
@@ -318,7 +318,7 @@ yellow {
   font-weight: 900;
   padding-top: 5vh;
   -webkit-text-stroke: 1.5px rgb(4, 4, 29);
-  background-image: url(images/banner.jpg);
+  background-image: url('/images/banner.jpg');
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 10s linear infinite;
