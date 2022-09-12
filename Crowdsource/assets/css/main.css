@@ -288,7 +288,7 @@ yellow {
   font-size: 2vw;
   font-weight: 800;
   -webkit-text-stroke: 1px rgb(4, 4, 29);
-  background-image: url(/images/banner.png);
+  background-image: url(images/banner.png);
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 5s linear infinite;
@@ -330,8 +330,8 @@ yellow {
   color: rgb(29, 26, 26);
 }
 .event-img {
-  width: 40vw;
-  height: 50vh;
+  width: 40rem;
+  height: 20rem;
   padding: 0.1rem;
   border: 0.5vw black solid;
   border-radius: 20px;
