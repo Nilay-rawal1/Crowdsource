@@ -1,4 +1,4 @@
-var countDownDate = new Date("Aug 05, 2022 20:53:00").getTime();
+var countDownDate = new Date("Sept 19, 2022 10:00:00").getTime();
 var x = setInterval(function() {
 
     // Get today's date and time
@@ -20,7 +20,7 @@ var x = setInterval(function() {
     // If the count down is finished, write some text
     if (distance <0) {
       clearInterval(x);
-      document.getElementById("demo").innerHTML = "Coming Soon !!!";
+      document.getElementById("demo").innerHTML = "We are Live !!!";
     }
     
   }, 1000);
