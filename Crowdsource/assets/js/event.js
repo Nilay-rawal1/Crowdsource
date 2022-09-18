@@ -1,4 +1,4 @@
-var countDownDate = new Date("Sept 19, 2022 10:00:00").getTime();
+var countDownDate = new Date("Sept 19, 2022 11:40:00").getTime();
 var x = setInterval(function() {
 
     // Get today's date and time
