@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://kit.fontawesome.com/785cae4a1f.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="is-preload">
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img class="huii" src="images/logo.svg" alt="" width="210" /></a>
+            </div>
+            <div class="sitenavigation">
+                <span class="menu-icon">
+                    <a href="#" class="menu example5"><span></span></a>
+                    <div id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </span>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="event.html">EVENTS</a></li>
+                
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="reg">
+        <h1 class="event-head regf "> 𝓡𝓮𝓰𝓲𝓼𝓽𝓻𝓪𝓽𝓲𝓸𝓷 𝓕𝓸𝓻𝓶  𝓯𝓸𝓻 
+            <br/> <br/> 𝓔𝓿𝓮𝓷𝓽𝓼 𝓪𝓷𝓭 𝓒𝓸𝓶𝓶𝓾𝓷𝓲𝓽𝔂 <h1>
+           
+    </div>
+    <div class="embbed">
+        <iframe id="gform" class="formstyle"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSc9iSr4aYSglrhnylFBVS6uStfOWysRIkPbWryx1O-4NhlFvQ/viewform?embedded=true"
+            frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
+    </div>
+    <footer class="save">
+        <ul class="name save" id="copyright">
+            <li>&copy; Made with ❤️ Crowdsource Influencers Team</li>
+            <li>&copy; All rights reserved 2022</li>
+
+        </ul>
+    </footer>
+    <script type="text/javascript">
+        var load = 0;
+
+        document.getElementById('gform').onload = function () {
+            /*Execute on every reload on iFrame*/
+            load++;
+            if (load > 2) {
+                /*Second reload is a submit*/
+                document.location = "event.html";
+            }
+        }
+    </script>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/event.js"></script>
+
+
+</body>
+
+</html>
