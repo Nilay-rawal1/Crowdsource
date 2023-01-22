@@ -445,7 +445,8 @@ align-items: flex-end;
 
 
 .launch{
-  font-size: 3vw;
+  text-align: center;
+  font-size: 2.5vw;
   font-weight: 500;
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -575,6 +576,18 @@ align-items: flex-end;
 }
 .color-reg{
   color: red;
+}
+.ucimagediv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  background: linear-gradient(lightblue,rgb(161, 151, 222));
+}
+.ucimage{
+  border-radius: 60px;
+  
+  width: 50vw;
 }
 
 
