@@ -19,7 +19,7 @@ var x = setInterval(function() {
     // If the count down is finished, write some text
     if (distance <0) {
       clearInterval(x);
-      document.getElementById("demo").innerHTML = "Only For 2022 Batch !";
+      document.getElementById("demo").innerHTML = "Coming soon !";
     }
     
   }, 1000);
