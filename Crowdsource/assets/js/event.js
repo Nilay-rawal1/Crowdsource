@@ -19,7 +19,7 @@ var x = setInterval(function() {
     // If the count down is finished, write some text
     if (distance <0) {
       clearInterval(x);
-      document.getElementById("demo").innerHTML = "Coming soon !";
+      document.getElementById("demo").innerHTML = "We are Back !";
     }
     
   }, 1000);
